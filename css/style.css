@@ -1,0 +1,28 @@
+body {color: #fff; letter-spacing: 1px; font-family: sans-serif;}
+.main {margin: 20px 0;}
+h2, h3 {text-align: center; letter-spacing: 1px; margin: 10px 0;}
+h2 {color: #cacaca;}
+ul {padding: 0 30px;}
+ul li {list-style: none; font-size: 16px; margin: 5px 0; text-align: left;}
+input[type="checkbox"] {margin-right: 5px;  }
+input[type="text"] {padding: 5px; color: #000;}
+.done-true {color: #adadad; text-decoration: line-through;}
+.todoform {margin: 40px 20px 0 20px;}
+.remove-items{float: right; margin: 5px 20px 0 0;}
+a {text-decoration: none; color: #fff; border-bottom: 1px solid rgba(255, 255, 255, 0.4);}
+a:hover, a:visited, a:active, a:focus {
+  text-decoration: none;
+  color: #939393;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+a:hover {color: #fff;}
+#header {background-color: #335735; border: 20px solid #825201; border-bottom: none; padding: 10px 0;}
+#content{
+  min-height: 500px;
+  background-color: #2D343A;
+  border: 20px solid #825201;
+  border-top: none;
+  padding: 20px 10px;
+  text-align: center;
+  overflow: auto;
+}
